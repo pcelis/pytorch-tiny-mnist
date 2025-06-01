@@ -1,0 +1,20 @@
+# Jupyter & Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# TVM build / cache
+tvm_build/
+*.so
+*.o
+*.target.so
+tune.log
+/.tvm/             # if you store cache inside repo
+
+# Data
+MNIST/*
+*.data
+*.log
+
+# OS cruft
+.DS_Store
